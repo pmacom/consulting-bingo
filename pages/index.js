@@ -27,7 +27,7 @@ const Home = () => {
 
   return <Container maxWidth="md">
     <Paper style={{ padding: '2rem' }}>
-      <Typography variant="h1" align="center" gutterBottom>Consultant Bingo</Typography>
+      <Typography variant="h1" align="center" gutterBottom>Consulting Bingo</Typography>
 
       <table style={{ width: '100%', tableLayout: 'fixed' }}>
         <tbody>
