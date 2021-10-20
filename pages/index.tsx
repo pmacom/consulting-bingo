@@ -7,7 +7,11 @@ import { sampleSize, chunk } from 'lodash';
 
 import phrases from '../phrases';
 
-const Square = ({ children }) => {
+type SquareProps = {
+  children: JSX.Element | JSX.Element[] | string
+}
+const Square = (props: SquareProps) => {
+  const { children } = props
   const [marked, setMarked] = useState(false);
 
   return <Button
